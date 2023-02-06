@@ -1,0 +1,38 @@
+2021-09-30 11:28:39,830:INFO: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-09-30 11:28:47,815:INFO:input successful
+2021-09-30 11:28:48,202:INFO:creating output
+2021-09-30 11:28:48,818:INFO:output file created successfully
+2021-09-30 11:28:48,857:INFO:127.0.0.1 - - [30/Sep/2021 11:28:48] "POST /predict_association HTTP/1.1" 200 -
+2021-09-30 11:28:48,911:INFO:127.0.0.1 - - [30/Sep/2021 11:28:48] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-30 11:29:01,631:INFO:input successful
+2021-09-30 11:29:01,881:INFO:creating output
+2021-09-30 11:29:02,060:INFO:output file created successfully
+2021-09-30 11:29:02,063:INFO:127.0.0.1 - - [30/Sep/2021 11:29:02] "POST /predict_association HTTP/1.1" 200 -
+2021-09-30 11:29:02,094:INFO:127.0.0.1 - - [30/Sep/2021 11:29:02] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-30 11:29:04,015:INFO:127.0.0.1 - - [30/Sep/2021 11:29:04] "GET /download_file/static/files/Wines_Frequent_Buyer.xlsx HTTP/1.1" 200 -
+2021-09-30 11:31:05,466:INFO:starting landing page
+2021-09-30 11:31:05,486:INFO:127.0.0.1 - - [30/Sep/2021 11:31:05] "GET / HTTP/1.1" 200 -
+2021-09-30 11:31:14,830:INFO:starting home page
+2021-09-30 11:31:14,839:INFO:127.0.0.1 - - [30/Sep/2021 11:31:14] "GET /home HTTP/1.1" 200 -
+2021-09-30 11:31:14,882:INFO:127.0.0.1 - - [30/Sep/2021 11:31:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-30 11:31:19,321:INFO:127.0.0.1 - - [30/Sep/2021 11:31:19] "GET /predict_cluster HTTP/1.1" 200 -
+2021-09-30 11:31:19,354:INFO:127.0.0.1 - - [30/Sep/2021 11:31:19] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-30 11:31:35,462:INFO:input successful
+2021-09-30 11:31:35,468:INFO:converted to csv
+2021-09-30 11:31:35,468:INFO:data gathered
+2021-09-30 11:31:35,479:INFO:data standardized
+2021-09-30 11:31:35,480:INFO:data normalized
+2021-09-30 11:31:35,480:INFO:using Gaussian Mixtures clustering
+2021-09-30 11:31:35,713:INFO:successfully predicted
+2021-09-30 11:31:35,723:INFO:output csv file successfully created
+2021-09-30 11:31:35,725:INFO:127.0.0.1 - - [30/Sep/2021 11:31:35] "POST /predict_cluster HTTP/1.1" 200 -
+2021-09-30 11:31:35,770:INFO:127.0.0.1 - - [30/Sep/2021 11:31:35] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-30 11:31:40,690:INFO:127.0.0.1 - - [30/Sep/2021 11:31:40] "GET /predict_association HTTP/1.1" 200 -
+2021-09-30 11:31:40,731:INFO:127.0.0.1 - - [30/Sep/2021 11:31:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-30 11:31:45,896:INFO:input successful
+2021-09-30 11:31:46,213:INFO:creating output
+2021-09-30 11:31:46,493:INFO:output file created successfully
+2021-09-30 11:31:46,496:INFO:127.0.0.1 - - [30/Sep/2021 11:31:46] "POST /predict_association HTTP/1.1" 200 -
+2021-09-30 11:31:46,529:INFO:127.0.0.1 - - [30/Sep/2021 11:31:46] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+2021-09-30 11:31:49,092:INFO:127.0.0.1 - - [30/Sep/2021 11:31:49] "GET /predict_association HTTP/1.1" 200 -
+2021-09-30 11:31:55,556:INFO:127.0.0.1 - - [30/Sep/2021 11:31:55] "GET /predict_cluster HTTP/1.1" 200 -

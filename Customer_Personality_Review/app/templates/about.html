@@ -1,0 +1,88 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <div style="margin-bottom: 100px;">
+        <h3 id="special">CUSTOMER PERSONALITY REVIEW</h3>
+        <article class="content-section">
+            <h4 class="article-title"> Objective: </h4>
+            The project is about analyzing the behaviour of the customers related to the company 
+            depending upon various factors provided in the dataset.
+            The analysis will help the company to create groups of customers with same behaviour
+            towards the company and also decide different marketing strategies for different 
+            groups.
+        </article>
+        <article class="content-section">
+            <h4 class="article-title"> Sections: </h4>
+            The website contains two sections -  
+            <ul type="none">
+                <li>
+                    <h5> Predict_cluster: </h5>
+                    This sections takes dataset from the user and assigns the clusters based 
+                    on the ML algorithm user selected. 
+                    The choice between K-means clustering and Gaussian Mixtures.
+                    The dataset with the clusters info. will be returned.
+                    This section will help company to know about it's customers and plan strategies.
+                </li>
+                <li>
+                    <h5> Predict_association: </h5>
+                    This sections takes dataset from the user and provides data about the association
+                    of the different products based on the customers purchasing habits.
+                    The dataset with the association rule info. of the selected product will be returned.
+                    This section will help company to know the potential targets for the marketing of
+                    the product.
+                </li>
+            </ul>
+        </article>
+        <article class="content-section">
+            <h4 class="article-title">Dataset Used: </h4>
+            <a href="https://raw.githubusercontent.com/amankharwal/Website-data/master/marketing_campaign.csv"> Dataset</a>
+        </article>
+        <article class="content-section">
+            <h4 class="article-title">Algorithms Used: </h4>
+            <ul type="none">
+                <li>
+                    <h5> K-means clustering: </h5>
+                    <a href="https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1">click for more</a>
+                </li>
+                <li>
+                    <h5> Gaussian Mixtures: </h5>
+                    <a href="https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/">click for more</a>
+                </li>
+                <li>
+                    <h5> Apriori:</h5>
+                    <a href="https://www.javatpoint.com/apriori-algorithm-in-machine-learning">click for more</a>
+                </li>
+                <li>
+                    <h5>Association rules: </h5>
+                    <a href="https://www.javatpoint.com/apriori-algorithm-in-machine-learning">click for more</a>
+                </li>
+            </ul>
+        </article>
+        <article class="content-section">
+            <h4 class="article-title">Technologies Used :</h4>
+            <ul type="none">
+                <li>
+                    <h5> Python: main programming language </h5> 
+                </li>
+                <li>
+                    <h5> Flask: as python framework </h5>
+                </li>
+                <li>
+                    <h5> WTF forms: to create forms</h5>    
+                </li>
+                <li>
+                    <h5> sklearn: to perform machine learning operations</h5>    
+                </li>
+                <li>
+                    <h5> Numpy: to perform scientific computing in python</h5>    
+                </li>
+                <li>
+                    <h5> Pandas: as data analysis and manipulation tool</h5>    
+                </li>
+            </ul>
+        </article>
+    </div>
+    <footer>
+        <p>Created By Harshavardhan Kamble <span>&copy</span> ,09/2021</p>
+    </footer>
+{% endblock content %}

@@ -1,0 +1,50 @@
+{% extends 'layout.html' %}
+
+
+{% block content%}
+  <div class="content-section">
+    <form action="" method="POST" enctype="multipart/form-data">
+      {{ form.hidden_tag() }}
+      <fieldset>
+        <legend class="border-bottom mb-4">{{ title }}</legend>
+        <div class="form-group">
+          {{ form.input_file.label(class='form-control-label') }}
+          
+          {% if form.input_file.errors %}
+            {{ form.input_file(class="form-control form-control-lg is-invalid")}}
+            <div class="invalid-feedback">
+              {% for error in form.input_file.errors %}
+                <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+          {% else %}
+            {{ form.input_file(class='form-control form-control-lg') }}
+          {% endif %}
+        </div>
+        <div class="form-group">
+          {{ form.cluster_model.label(class='form-control-label') }}
+          
+          {% if form.cluster_model.errors %}
+            {{ form.cluster_model(class="form-control form-control-lg is-invalid")}}
+            <div class="invalid-feedback">
+              {% for error in form.cluster_model.errors %}
+                <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+          {% else %}
+            {{ form.cluster_model(class='form-control form-control-lg') }}
+          {% endif %}
+        </div>
+      </fieldset>
+      <div class="form-group">
+        {{ form.submit(class='btn btn-outline-info') }}
+      </div>
+    </form>
+  </div>
+  {% if v == True: %}
+    <div class="content-section">
+      <span>{{ filename }}</span><button class="btn btn-outline"><a href="{{ url_for('utils.download_file', filename='static/files/predicted_clusters.csv') }}">Download File</a></button>
+    </div>
+  {% endif %}
+{% endblock content %}
+

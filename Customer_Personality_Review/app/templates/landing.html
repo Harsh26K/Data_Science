@@ -1,0 +1,76 @@
+{% block content%}
+    <style>
+        body{
+            background:aquamarine;
+        }
+        .container {
+            width: 70%;
+            height: 40%;
+            margin: 200px 250px 20px 250px;
+            border: 1px solid #1b7777;
+            padding: 0px;
+            background: #228b8b;
+        }
+        
+        #title {
+            color: white;
+            font-size: 50;
+            margin: 50px 150px;
+        }
+        button {
+            padding: 10px 20px;
+            margin:0px 700px;
+            background-color:aquamarine;
+            border: 2px solid blue;
+        }
+        @media screen and (max-width:850px){
+            .container{
+                width: 60%;
+                height: 30%;
+                margin: 200px 150px 20px 200px;
+                border: 1px solid #1b7777;
+                padding: 0px;
+                background: #228b8b;
+            }
+            #title {
+                color: white;
+                font-size: 40;
+                margin: 30px 150px;
+                margin-left:100px;
+            }
+            button{
+                padding: 10px 20px;
+                background-color:aquamarine;
+                border: 2px solid blue;
+                margin: 0px 400px;
+            }
+        }
+        @media screen and (max-width:670px){
+            .container{
+                width: 60%;
+                height: 30%;
+                margin: 200px 100px 20px 150px;
+                border: 1px solid #1b7777;
+                padding: 0px;
+                background: #228b8b;
+            }
+            #title {
+                color: white;
+                font-size: 30;
+                margin: 15px 150px;
+                margin-left:50px;
+            }
+            button{
+                padding: 10px 20px;
+                background-color:aquamarine;
+                border: 2px solid blue;
+                margin: 0px 250px;
+            }
+        }
+    </style>
+    <div class="container">
+        <h1 id="title">CUSTOMER PERSONALITY ANALYSIS</h1>
+    </div>
+    <button><a href="{{ url_for('main.home') }}" style="text-decoration: none; color:black"><strong>Enter</strong></a></button>
+{% endblock content %}
+

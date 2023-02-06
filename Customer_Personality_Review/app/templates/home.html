@@ -1,0 +1,50 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <div class="content-section">
+        <h3 class="changing_h2"><a href="{{ url_for('clusters.predict_cluster') }}">1.Predict Cluster</a></h3>
+        <div>
+            <h4>Inputs:</h4>
+            <ul type="none">
+                <li>Dataset with colummns:
+                    <ol type="1">
+                        <li>Income :  income of the customer</li>
+                        <li>TotalAmtSpent : Total amt. spent on different products</li>
+                        <li>
+                            Relation : how many years customer related to company i.e. current_year-joining year
+                        </li>
+                    </ol>
+                </li>
+                <li>Data Model: Kmeans, GaussianMixtures</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Output:</h4>
+            <ul type="none">
+                <li>csv file with clusters column appended, the clusters being:
+                    <ol type="numbers">
+                        <li>Ace: High salary, High spending, Old relation</li>
+                        <li>Diamond: High salary, High spending, New relation</li>
+                        <li>Platinum: Low salary, Low spending, New relation</li>
+                        <li>Gold: Low salary, Low spending, Old relation</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-section">
+        <h3 class="changing_h2"><a href="{{ url_for('association.predict_association') }}">2.Predict Association</a></h3>
+        <div>
+            <h4>Inputs:</h4>
+            <ul type="none">
+                <li>Product Name</li>
+                <li>Segment Name</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Output:</h4>
+            <ul type="none">
+                <li>Excel file with association rule of the product</li>
+            </ul>
+        </div>
+    </div>
+{% endblock content %}
