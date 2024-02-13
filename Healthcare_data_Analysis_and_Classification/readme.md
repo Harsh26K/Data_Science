@@ -10,6 +10,7 @@
     <li>Column 'gender' had only one value Other, which was replaced with Male value based on values of other features.</li>
     <li>Also, distribution of data and some basic relationships were visualized to understand the data better.</li>
 </ol>
+<img src="images/eda.png">
 
 <h3><strong>2. Visualization</strong></h3>
 <ol>
@@ -21,12 +22,14 @@
 <h3><strong>3. Modeling<strong></h3>
 <ol>
     <li>The data was preprocessed in the stage with handling categorical variables, Scaling the data etc.</li>
-    <li> The target varaible 'stroke' conatained heavy imbalance between the categories. The imbalanced was removed using SMOTE.</li>
+    <li> The target varaible 'stroke' contained heavy imbalance between the categories. The imbalanced was removed using SMOTE.</li>
+    <img src="images/target_imbalance.png">
     <li>6 classification models using Decision Tree, KNN, Logistic Regression, Random Forest, SVC, XGBoost were created.</li>
     <li>The performance was analysed for individual classifier and the best model was selected using hyperparameter tuning.</li>
     <li>The best model of each classifier was trained and tested on the data and metrics scores were recorded and stored for final comparison and conclusion.</li>
     <li>The model should be selected based on domain knowledge as the evaluation criteria might change.</li>
 </ol>
+<img src="images/model_comparison.png">
 
 <h3><strong>4. Conclusion</strong></h3>
 <ol>
