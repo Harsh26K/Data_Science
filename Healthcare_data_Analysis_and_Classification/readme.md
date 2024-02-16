@@ -19,7 +19,7 @@
     <li>Some new measures were created using DAX to help with visualization and understanding of patients stats better.</li>
 </ol>
 
-<h3><strong>3. Modeling<strong></h3>
+<h3><strong>3. Modeling</strong></h3>
 <ol>
     <li>The data was preprocessed in the stage with handling categorical variables, Scaling the data etc.</li>
     <li> The target varaible 'stroke' contained heavy imbalance between the categories. The imbalanced was removed using SMOTE.</li>
