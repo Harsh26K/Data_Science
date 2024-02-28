@@ -1,8 +1,11 @@
 <h1>Analysing Tuberculosis Cases in Kaduna 2019-2023</h1>
 
 <p> This project was part of colab between Omdena and Kaduna Local Authorities. About 15-20 people were working on the project at different stages of Data Collection, EDA, Visualization, Modeling, Deployment And Presentation. Here is the final result of approx. 3 months of hardwork and teamwork.</p>
-<a href="https://dagshub.com/Omdena/KadunaNigeriaChapter_Tuberculosis">Dagshub Repo</a>
-<a href="https://kadunastatetbanalysis.streamlit.app/">Dashboard App</a>
+<div>
+  <a href="https://dagshub.com/Omdena/KadunaNigeriaChapter_Tuberculosis"><strong>Dagshub Repo</strong></a>
+  <p></p>
+  <a href="https://kadunastatetbanalysis.streamlit.app/"><strong>Dashboard App</strong></a>
+</div>
 <p> I was mainly part of EDA and Visualization team although I wanted to be involved in all phases. The data collected was divided into blocks where I worked on Block2C. The contents of the blocks were slightly different from each other, so is the focus of Analysis.</p>
 
 <img src="flow.png">
@@ -32,14 +35,24 @@ But few minor as challenges mentioned below - </p>
 <h2>Visualization</h2>
 Plotly was used during this phase to showcase trends and insights related to TB Cases w.r.t different demographics.
 Here are the some of vizs - 
-<img src="/Visualization/images/choropleth_map.png">
-<img src="/Visualization/images/genderwise_tb_cases_by_age_gr.png">
-<img src="/Visualization/images/quarterwise_tb_cases_for_selected_lga.png">
-<img src="/Visualization/images/tb_cases_by_lga.png">
-<img src="/Visualization/images/tb_cases_by_year.png">
-<img src="/Visualization/images/tb_cases_trend_over_period_for_LGA.png">
-<img src="/Visualization/images/total_tb_cases_by_age_gr.png">
-<img src="/Visualization/images/total_tb_cases_by_gender.png">
+<div>
+  <img src="Visualization/images/choropleth_map.png">
+  <p></p>
+  <img src="Visualization/images/genderwise_tb_cases_by_age_gr.png">
+  <p></p>
+  <img src="Visualization/images/quarterwise_tb_cases_for_selected_lga.png">
+  <p></p>
+  <img src="Visualization/images/tb_cases_by_lga.png">
+  <p></p>
+  <img src="Visualization/images/tb_cases_by_year.png">
+  <p></p>
+  <img src="Visualization/images/tb_cases_trend_over_period_for_LGA.png">
+  <p></p>
+  <img src="Visualization/images/total_tb_cases_by_age_gr.png">
+  <p></p>
+  <img src="Visualization/images/total_tb_cases_by_gender.png">
+  <p></p>
+</div>
 </section>
 
 <section>
@@ -63,5 +76,5 @@ Silhouette score for final models were:
 </ol>
 
 The Assigned clusters are - 
-<img src="/Modeling/clusters_result.png">
+<img src="Modeling/clusters_result.png">
 </section>
