@@ -46,6 +46,10 @@
     <li>
         R2_score and Mean_Absolute_Error was used for individual evaluation while R2_score and Root_Mean_Squared_Error were metrics for final evaluation.
     </li>
+</ol>
+
+<h3><strong>3. Conclusion</strong></strong></h3>
+<ol>
     <li>
         Based on evaluation, SVM seems to performed well while XGBoost can also be a choice as it is close to SVM. Overall performance of models is above average but not good.
     </li>
