@@ -1,6 +1,8 @@
 <h1>Analysing Tuberculosis Cases in Kaduna 2019-2023</h1>
 
 <p> This project was part of colab between Omdena and Kaduna Local Authorities. About 15-20 people were working on the project at different stages of Data Collection, EDA, Visualization, Modeling, Deployment And Presentation. Here is the final result of approx. 3 months of hardwork and teamwork.</p>
+
+<p>Aim of the project was to analyse TB Cases in Kaduna State of Nigeria and apply ML Models to Cluster areas based on intensity.</p>
 <div>
   <a href="https://dagshub.com/Omdena/KadunaNigeriaChapter_Tuberculosis"><strong>Dagshub Repo</strong></a>
   <p></p>
