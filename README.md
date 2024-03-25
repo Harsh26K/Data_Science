@@ -2,7 +2,7 @@
 end to end data science projects
 
 
-## [!Big Mart Sale Data](https://github.com/Harsh26K/Data_Science/tree/main/Big_Mart_Sale_Data)
+## [Big Mart Sale Data](https://github.com/Harsh26K/Data_Science/tree/main/Big_Mart_Sale_Data)
 
  - predicting Sales of different products from different Big Mart Outlets
 
@@ -12,7 +12,7 @@ end to end data science projects
 
  - Linear Regression, Random Forest Regression, SVM Regression, XGBoost Regression
 
-## [!Kaduna State TB Analysis](https://github.com/Harsh26K/Data_Science/tree/main/Kaduna_State_TB_Analysis)
+## [Kaduna State TB Analysis](https://github.com/Harsh26K/Data_Science/tree/main/Kaduna_State_TB_Analysis)
 
  - Omdena Kaduna Local Chapter Initiative project
 
@@ -26,7 +26,7 @@ end to end data science projects
 
  - Clustering using KMeans, DBSCAN and GMM
 
-## [!Healthcare Data Analysis](https://github.com/Harsh26K/Data_Science/tree/main/Healthcare_data_Analysis_and_Classification)
+## [Healthcare Data Analysis](https://github.com/Harsh26K/Data_Science/tree/main/Healthcare_data_Analysis_and_Classification)
 
  - analysis of stroke patients dataset and creating classification models for categorizing patients into stroke patients and no-stroke patients 
 
