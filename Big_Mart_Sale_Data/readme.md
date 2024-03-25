@@ -4,7 +4,7 @@
     The project is about predicting Sales of different products from different Big Mart Outlets. 
 </p>
 <p>
-    The project was divided into two parts understanding the dataset [EDA] and analysisng performance of different Regression models on the data.
+    The project was divided into two parts understanding the dataset [EDA] and analysing performance of different Regression models on the data.
 </p>
 
 <h3><strong>1. EDA</strong></h3>
